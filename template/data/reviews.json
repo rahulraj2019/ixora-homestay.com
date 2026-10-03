@@ -1,0 +1,29 @@
+[
+  {
+    "id": "seed-1",
+    "name": "Ananya Krishnan",
+    "location": "Kochi, Kerala",
+    "rating": 5,
+    "message": "We booked IXORA for a quiet weekend and it felt like our own home. The courtyard at dusk and the campfire made the stay unforgettable.",
+    "created_at": "2026-06-12T10:00:00+05:30",
+    "approved": true
+  },
+  {
+    "id": "seed-2",
+    "name": "Rahul & Meera",
+    "location": "Bengaluru",
+    "rating": 5,
+    "message": "Perfect venue for our family gathering. Spacious 2 BHK, lovely dining space, and the photo point was a hit with everyone.",
+    "created_at": "2026-07-03T14:20:00+05:30",
+    "approved": true
+  },
+  {
+    "id": "seed-3",
+    "name": "Fathima Naseer",
+    "location": "Kannur",
+    "rating": 5,
+    "message": "Celebrated my sister’s birthday here. Stage, grill and games — everything was easy. Hosts were warm and helpful throughout.",
+    "created_at": "2026-08-18T09:15:00+05:30",
+    "approved": true
+  }
+]
