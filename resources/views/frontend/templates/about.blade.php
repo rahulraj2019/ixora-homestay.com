@@ -1,6 +1,6 @@
 <section class="page-hero">
     <div class="wrap" style="max-width:760px">
-        <p class="eyebrow">About IXORA Homestay Kannur.</p>
+        <p class="eyebrow">About IXORA Homestay Kannur...</p>
         <h1>{{ $page->title }}</h1>
         @if($page->meta_description)
             <p class="lede">{{ $page->meta_description }}</p>
