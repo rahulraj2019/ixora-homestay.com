@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('body_class', ($page->slug ?? '') === 'home' ? 'home' : ''); ?>
 
 <?php $__env->startSection('content'); ?>
