@@ -1,6 +1,6 @@
 <section class="page-hero">
     <div class="wrap" style="max-width:760px">
-        <p class="eyebrow">About IXORA Homestay Kannur...</p>
+        <p class="eyebrow">About IXORA Homestay Kannur</p>
         <h1><?php echo e($page->title); ?></h1>
         <?php if($page->meta_description): ?>
             <p class="lede"><?php echo e($page->meta_description); ?></p>
