@@ -1,8 +1,8 @@
 <section class="page-hero">
     <div class="wrap" style="max-width:760px">
       <p class="eyebrow">Help</p>
-      <h1>Frequently asked questions</h1>
-      <p class="lede">Everything you need to know before booking a stay or celebration at IXORA, Niduvaloor Gate.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
     </div>
   </section>
 

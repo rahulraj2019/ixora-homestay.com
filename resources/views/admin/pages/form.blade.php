@@ -35,7 +35,7 @@
 @if($page->exists)
 <div class="panel">
     <h2>Content blocks</h2>
-    <p style="color:#5c6b62">Active blocks appear on the public page <strong>above the footer</strong> (after the page template). Keep status = active.</p>
+    <p style="color:#5c6b62">Active blocks appear after the page template. Add a text block to publish editable content on this page.</p>
     <form method="POST" action="{{ route('admin.pages.blocks.store', $page) }}" class="toolbar">
         @csrf
         <div><label>Type</label>
@@ -46,6 +46,8 @@
             </select>
         </div>
         <div><label>Title</label><input name="title"></div>
+        <div><label>Subtitle</label><input name="subtitle"></div>
+        <div class="full"><label>Content</label><textarea name="content"></textarea></div>
         <div><label>Status</label><select name="status"><option value="active">active</option><option value="inactive">inactive</option></select></div>
         <button class="btn" type="submit">Add block</button>
     </form>

@@ -14,8 +14,8 @@
 <section class="page-hero contact-hero">
     <div class="wrap">
       <p class="eyebrow">Contact</p>
-      <h1>Talk to us</h1>
-    <p class="lede">Call, message on WhatsApp, or send your dates. We confirm availability for stays and celebrations at Niduvaloor Gate.</p>
+      <h1>{{ $page->title }}</h1>
+    <p class="lede">{{ $page->meta_description }}</p>
 
     <div class="contact-quick">
       <a class="contact-chip" href="tel:{{ $phonePrimaryTel }}">

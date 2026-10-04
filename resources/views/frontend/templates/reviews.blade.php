@@ -2,8 +2,8 @@
     <div class="wrap reviews-hero-inner">
         <div class="reviews-hero-copy">
             <p class="eyebrow">Guest reviews</p>
-            <h1>Stories from stays at IXORA</h1>
-            <p class="lede">Honest notes from families and celebrations at our Niduvaloor homestay in Kannur — plus a place to share yours.</p>
+            <h1>{{ $page->title }}</h1>
+            <p class="lede">{{ $page->meta_description }}</p>
             @if(($reviewsCount ?? 0) > 0)
                 <div class="reviews-score reviews-score-hero" data-reviews-score>
                     <strong data-avg>{{ number_format((float) ($reviewsAverage ?? 5), 1) }}</strong>

@@ -12,8 +12,8 @@
 <section class="page-hero">
   <div class="wrap">
     <p class="eyebrow">Kannur Homestay Booking</p>
-    <h1>Book your Kannur family stay</h1>
-    <p class="lede">Check dates for IXORA — an affordable private homestay in Niduvaloor, Kannur. We confirm availability and pricing for weekday, weekend and event stays.</p>
+    <h1>{{ $page->title }}</h1>
+    <p class="lede">{{ $page->meta_description }}</p>
   </div>
 </section>
 

@@ -20,8 +20,8 @@
     <div class="hero-shade"></div>
     <div class="wrap hero-content">
       <p class="eyebrow">Kannur Travel Guide</p>
-      <h1>Best places to visit<br><em>in &amp; near Kannur</em></h1>
-      <p class="lede">Things to do in Kannur from IXORA Homestay — beaches, forts, temples, hills and waterfalls for a perfect weekend getaway.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
     </div>
   </section>
 

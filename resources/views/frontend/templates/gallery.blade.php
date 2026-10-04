@@ -1,8 +1,8 @@
 <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">Gallery</p>
-      <h1>A look around the venue</h1>
-      <p class="lede">The house, the courtyard, the stage and the evenings in between. Tap any photo to open it.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
     </div>
   </section>
 

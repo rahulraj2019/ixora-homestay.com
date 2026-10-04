@@ -20,8 +20,8 @@
     <div class="hero-shade"></div>
     <div class="wrap hero-content">
       <p class="eyebrow">Best Homestay in Kannur · Near Thaliparamba</p>
-      <h1>Ixora Homestay<br>for Family Stays<br><em>&amp; Celebrations</em></h1>
-      <p class="lede">Book an affordable family homestay in Kannur at Niduvaloor Gate — private 2 BHK home stay in Kannur Kerala near Thaliparamba, with kitchen, courtyard, parking and easy day trips.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
       <div class="hero-actions">
         <a class="btn btn-gold" href="{{ route('page.show', 'booking') }}">Book Homestay in Kannur</a>
         <a class="btn btn-ghost" href="{{ route('page.show', 'gallery') }}">View the venue</a>

@@ -3,8 +3,8 @@
     <div class="hero-shade"></div>
     <div class="wrap hero-content">
       <p class="eyebrow">Event venue &amp; Kannur homestay</p>
-      <h1>Celebrate at your<br><em>private Kannur stay.</em></h1>
-      <p class="lede">Host birthdays, engagements and family functions at IXORA — a peaceful Niduvaloor homestay venue with courtyard, stage options, photo point, campfire and grill.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
       <div class="hero-actions">
         <a class="btn btn-gold" href="#packages">Explore packages</a>
         <a class="btn btn-ghost" href="{{ route('page.show', 'booking') }}?type=birthday">Plan my event</a>

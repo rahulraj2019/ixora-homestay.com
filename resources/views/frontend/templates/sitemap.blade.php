@@ -1,6 +1,7 @@
 <section class="page-hero"><div class="wrap">
     <p class="eyebrow">Sitemap</p>
-    <h1>All pages</h1>
+    <h1>{{ $page->title }}</h1>
+    @if($page->meta_description)<p class="lede">{{ $page->meta_description }}</p>@endif
     <ul class="sitemap-list">
       <li><a href="{{ route('home') }}">Home <span>›</span></a></li>
       <li><a href="{{ route('page.show', 'stay') }}">Stay <span>›</span></a></li>

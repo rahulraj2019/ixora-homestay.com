@@ -1,8 +1,8 @@
 <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow">Family Homestay in Kannur</p>
-      <h1>Private rooms &amp; full house for family stays</h1>
-      <p class="lede">Affordable family homestay near Irikkur &amp; Thaliparamba — two bedrooms, kitchen, dining, living area, courtyard and parking at Niduvaloor Gate, Kannur Kerala.</p>
+      <h1>{{ $page->title }}</h1>
+      <p class="lede">{{ $page->meta_description }}</p>
       <div class="hero-actions">
         <a class="btn btn-dark" href="{{ route('page.show', 'booking') }}?type=homestay">Check availability</a>
         <a class="btn btn-line" href="{{ route('page.show', 'gallery') }}">View gallery</a>
